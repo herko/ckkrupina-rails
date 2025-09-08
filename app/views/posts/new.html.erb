@@ -1,0 +1,8 @@
+New post
+
+<%= form_with model: @post do |f| %>
+  <%= f.text_field :title %>
+  <%= f.text_area :perex %>
+  <%= f.rich_text_area :content %>
+  <%= f.submit %>
+<% end %>
